@@ -1,0 +1,51 @@
+{
+  "video_id": "Unibo_scan_windows_clean",
+  "video_path": "Week3_Behaviour_Dataset/data/videos/Unibo_scan_windows_clean.mp4",
+  "fps": 25.0,
+  "mapping_status": "tentative_manual_mapping_from_montage",
+  "notes": "The video is a manually concatenated screen recording of selected scan-sampling windows. Segment boundaries are estimated from visual transitions.",
+  "segments": [
+    {
+      "segment_id": "scan_09_00",
+      "video_start_sec": 5.0,
+      "video_end_sec": 25.0,
+      "excel_interval_start": "09:00:00",
+      "excel_interval_end": "09:00:10"
+    },
+    {
+      "segment_id": "scan_09_10",
+      "video_start_sec": 30.0,
+      "video_end_sec": 45.0,
+      "excel_interval_start": "09:10:00",
+      "excel_interval_end": "09:10:10"
+    },
+    {
+      "segment_id": "scan_09_20",
+      "video_start_sec": 50.0,
+      "video_end_sec": 60.0,
+      "excel_interval_start": "09:20:00",
+      "excel_interval_end": "09:20:10"
+    },
+    {
+      "segment_id": "scan_09_30",
+      "video_start_sec": 60.0,
+      "video_end_sec": 80.0,
+      "excel_interval_start": "09:30:00",
+      "excel_interval_end": "09:30:10"
+    },
+    {
+      "segment_id": "scan_09_40",
+      "video_start_sec": 80.0,
+      "video_end_sec": 100.0,
+      "excel_interval_start": "09:40:00",
+      "excel_interval_end": "09:40:10"
+    },
+    {
+      "segment_id": "scan_09_50",
+      "video_start_sec": 100.0,
+      "video_end_sec": 113.0,
+      "excel_interval_start": "09:50:00",
+      "excel_interval_end": "09:50:10"
+    }
+  ]
+}

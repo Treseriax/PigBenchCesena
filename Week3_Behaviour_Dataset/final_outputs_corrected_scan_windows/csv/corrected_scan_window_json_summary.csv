@@ -1,0 +1,7 @@
+segment_id,excel_interval_start,excel_interval_end,frames,track_instances,verified_track_instances,unverified_track_instances
+scan_09_00,09:00:00,09:00:10,500,5139,0,5139
+scan_09_10,09:10:00,09:10:10,375,3294,0,3294
+scan_09_20,09:20:00,09:20:10,250,2682,0,2682
+scan_09_30,09:30:00,09:30:10,500,4968,0,4968
+scan_09_40,09:40:00,09:40:10,500,4481,0,4481
+scan_09_50,09:50:00,09:50:10,325,2670,0,2670

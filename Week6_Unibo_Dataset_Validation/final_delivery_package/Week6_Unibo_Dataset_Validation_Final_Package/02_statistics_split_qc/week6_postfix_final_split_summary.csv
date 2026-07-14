@@ -1,0 +1,4 @@
+"split","labels","video_units","behaviours","colours","direct_tlc_records","candidate_ctoken_records"
+"test","72","2","10","6","36","36"
+"train","288","8","11","6","216","72"
+"val","72","2","10","6","36","36"

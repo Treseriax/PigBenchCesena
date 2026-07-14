@@ -1,0 +1,37 @@
+segment_id,excel_interval_start,excel_interval_end,pig_id,colour,behaviour_code,behaviour_label
+scan_09_00,09:00:00,09:00:10,verde - green,green,NU,eating
+scan_09_00,09:00:00,09:00:10,blu - blue,blue,NU,eating
+scan_09_00,09:00:00,09:00:10,viola - purple,purple,NU,eating
+scan_09_00,09:00:00,09:00:10,rosso testa - red neck,red neck,NU,eating
+scan_09_00,09:00:00,09:00:10,rosso coda - red tail,red tail,AN,exploring_or_sniffing
+scan_09_00,09:00:00,09:00:10,# - no color,no color,NU,eating
+scan_09_10,09:10:00,09:10:10,verde - green,green,BOX,out_of_view_or_box
+scan_09_10,09:10:00,09:10:10,blu - blue,blue,BOX,out_of_view_or_box
+scan_09_10,09:10:00,09:10:10,viola - purple,purple,BOX,out_of_view_or_box
+scan_09_10,09:10:00,09:10:10,rosso testa - red neck,red neck,BOX,out_of_view_or_box
+scan_09_10,09:10:00,09:10:10,rosso coda - red tail,red tail,STI,lying_sternal
+scan_09_10,09:10:00,09:10:10,# - no color,no color,BOX,out_of_view_or_box
+scan_09_20,09:20:00,09:20:10,verde - green,green,BOX,out_of_view_or_box
+scan_09_20,09:20:00,09:20:10,blu - blue,blue,BOX,out_of_view_or_box
+scan_09_20,09:20:00,09:20:10,viola - purple,purple,PI,standing_inactive
+scan_09_20,09:20:00,09:20:10,rosso testa - red neck,red neck,BOX,out_of_view_or_box
+scan_09_20,09:20:00,09:20:10,rosso coda - red tail,red tail,STI,lying_sternal
+scan_09_20,09:20:00,09:20:10,# - no color,no color,AN,exploring_or_sniffing
+scan_09_30,09:30:00,09:30:10,verde - green,green,BOX,out_of_view_or_box
+scan_09_30,09:30:00,09:30:10,blu - blue,blue,BOX,out_of_view_or_box
+scan_09_30,09:30:00,09:30:10,viola - purple,purple,STI,lying_sternal
+scan_09_30,09:30:00,09:30:10,rosso testa - red neck,red neck,BOX,out_of_view_or_box
+scan_09_30,09:30:00,09:30:10,rosso coda - red tail,red tail,STI,lying_sternal
+scan_09_30,09:30:00,09:30:10,# - no color,no color,BOX,out_of_view_or_box
+scan_09_40,09:40:00,09:40:10,verde - green,green,AN,exploring_or_sniffing
+scan_09_40,09:40:00,09:40:10,blu - blue,blue,BOX,out_of_view_or_box
+scan_09_40,09:40:00,09:40:10,viola - purple,purple,STI,lying_sternal
+scan_09_40,09:40:00,09:40:10,rosso testa - red neck,red neck,AN,exploring_or_sniffing
+scan_09_40,09:40:00,09:40:10,rosso coda - red tail,red tail,IN,interaction
+scan_09_40,09:40:00,09:40:10,# - no color,no color,AN,exploring_or_sniffing
+scan_09_50,09:50:00,09:50:10,verde - green,green,LAI,lying_lateral
+scan_09_50,09:50:00,09:50:10,blu - blue,blue,STI,lying_sternal
+scan_09_50,09:50:00,09:50:10,viola - purple,purple,PI,standing_inactive
+scan_09_50,09:50:00,09:50:10,rosso testa - red neck,red neck,STI,lying_sternal
+scan_09_50,09:50:00,09:50:10,rosso coda - red tail,red tail,STI,lying_sternal
+scan_09_50,09:50:00,09:50:10,# - no color,no color,STI,lying_sternal

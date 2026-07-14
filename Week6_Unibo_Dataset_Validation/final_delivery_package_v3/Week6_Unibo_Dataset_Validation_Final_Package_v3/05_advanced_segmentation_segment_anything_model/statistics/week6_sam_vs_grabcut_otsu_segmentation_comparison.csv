@@ -1,0 +1,8 @@
+"comparison","status","evidence"
+"matched_rows","PASS","540.0"
+"sam_rows","INFO","540.0"
+"baseline_rows","INFO","540.0"
+"mean_sam_mask_area_pixels","INFO","6366.579629629629"
+"mean_baseline_mask_area_pixels","INFO","5098.374074074074"
+"median_sam_to_baseline_area_ratio","INFO","1.2810008998867342"
+"mean_sam_to_baseline_area_ratio","INFO","1.6083807025621457"

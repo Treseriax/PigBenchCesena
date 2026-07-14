@@ -1,0 +1,326 @@
+[
+  {
+    "segment_id": "scan_09_00",
+    "excel_interval_start": "09:00:00",
+    "excel_interval_end": "09:00:10",
+    "pig_id": "verde - green",
+    "colour": "green",
+    "behaviour_code": "NU",
+    "behaviour_label": "eating"
+  },
+  {
+    "segment_id": "scan_09_00",
+    "excel_interval_start": "09:00:00",
+    "excel_interval_end": "09:00:10",
+    "pig_id": "blu - blue",
+    "colour": "blue",
+    "behaviour_code": "NU",
+    "behaviour_label": "eating"
+  },
+  {
+    "segment_id": "scan_09_00",
+    "excel_interval_start": "09:00:00",
+    "excel_interval_end": "09:00:10",
+    "pig_id": "viola - purple",
+    "colour": "purple",
+    "behaviour_code": "NU",
+    "behaviour_label": "eating"
+  },
+  {
+    "segment_id": "scan_09_00",
+    "excel_interval_start": "09:00:00",
+    "excel_interval_end": "09:00:10",
+    "pig_id": "rosso testa - red neck",
+    "colour": "red neck",
+    "behaviour_code": "NU",
+    "behaviour_label": "eating"
+  },
+  {
+    "segment_id": "scan_09_00",
+    "excel_interval_start": "09:00:00",
+    "excel_interval_end": "09:00:10",
+    "pig_id": "rosso coda - red tail",
+    "colour": "red tail",
+    "behaviour_code": "AN",
+    "behaviour_label": "exploring_or_sniffing"
+  },
+  {
+    "segment_id": "scan_09_00",
+    "excel_interval_start": "09:00:00",
+    "excel_interval_end": "09:00:10",
+    "pig_id": "# - no color",
+    "colour": "no color",
+    "behaviour_code": "NU",
+    "behaviour_label": "eating"
+  },
+  {
+    "segment_id": "scan_09_10",
+    "excel_interval_start": "09:10:00",
+    "excel_interval_end": "09:10:10",
+    "pig_id": "verde - green",
+    "colour": "green",
+    "behaviour_code": "BOX",
+    "behaviour_label": "out_of_view_or_box"
+  },
+  {
+    "segment_id": "scan_09_10",
+    "excel_interval_start": "09:10:00",
+    "excel_interval_end": "09:10:10",
+    "pig_id": "blu - blue",
+    "colour": "blue",
+    "behaviour_code": "BOX",
+    "behaviour_label": "out_of_view_or_box"
+  },
+  {
+    "segment_id": "scan_09_10",
+    "excel_interval_start": "09:10:00",
+    "excel_interval_end": "09:10:10",
+    "pig_id": "viola - purple",
+    "colour": "purple",
+    "behaviour_code": "BOX",
+    "behaviour_label": "out_of_view_or_box"
+  },
+  {
+    "segment_id": "scan_09_10",
+    "excel_interval_start": "09:10:00",
+    "excel_interval_end": "09:10:10",
+    "pig_id": "rosso testa - red neck",
+    "colour": "red neck",
+    "behaviour_code": "BOX",
+    "behaviour_label": "out_of_view_or_box"
+  },
+  {
+    "segment_id": "scan_09_10",
+    "excel_interval_start": "09:10:00",
+    "excel_interval_end": "09:10:10",
+    "pig_id": "rosso coda - red tail",
+    "colour": "red tail",
+    "behaviour_code": "STI",
+    "behaviour_label": "lying_sternal"
+  },
+  {
+    "segment_id": "scan_09_10",
+    "excel_interval_start": "09:10:00",
+    "excel_interval_end": "09:10:10",
+    "pig_id": "# - no color",
+    "colour": "no color",
+    "behaviour_code": "BOX",
+    "behaviour_label": "out_of_view_or_box"
+  },
+  {
+    "segment_id": "scan_09_20",
+    "excel_interval_start": "09:20:00",
+    "excel_interval_end": "09:20:10",
+    "pig_id": "verde - green",
+    "colour": "green",
+    "behaviour_code": "BOX",
+    "behaviour_label": "out_of_view_or_box"
+  },
+  {
+    "segment_id": "scan_09_20",
+    "excel_interval_start": "09:20:00",
+    "excel_interval_end": "09:20:10",
+    "pig_id": "blu - blue",
+    "colour": "blue",
+    "behaviour_code": "BOX",
+    "behaviour_label": "out_of_view_or_box"
+  },
+  {
+    "segment_id": "scan_09_20",
+    "excel_interval_start": "09:20:00",
+    "excel_interval_end": "09:20:10",
+    "pig_id": "viola - purple",
+    "colour": "purple",
+    "behaviour_code": "PI",
+    "behaviour_label": "standing_inactive"
+  },
+  {
+    "segment_id": "scan_09_20",
+    "excel_interval_start": "09:20:00",
+    "excel_interval_end": "09:20:10",
+    "pig_id": "rosso testa - red neck",
+    "colour": "red neck",
+    "behaviour_code": "BOX",
+    "behaviour_label": "out_of_view_or_box"
+  },
+  {
+    "segment_id": "scan_09_20",
+    "excel_interval_start": "09:20:00",
+    "excel_interval_end": "09:20:10",
+    "pig_id": "rosso coda - red tail",
+    "colour": "red tail",
+    "behaviour_code": "STI",
+    "behaviour_label": "lying_sternal"
+  },
+  {
+    "segment_id": "scan_09_20",
+    "excel_interval_start": "09:20:00",
+    "excel_interval_end": "09:20:10",
+    "pig_id": "# - no color",
+    "colour": "no color",
+    "behaviour_code": "AN",
+    "behaviour_label": "exploring_or_sniffing"
+  },
+  {
+    "segment_id": "scan_09_30",
+    "excel_interval_start": "09:30:00",
+    "excel_interval_end": "09:30:10",
+    "pig_id": "verde - green",
+    "colour": "green",
+    "behaviour_code": "BOX",
+    "behaviour_label": "out_of_view_or_box"
+  },
+  {
+    "segment_id": "scan_09_30",
+    "excel_interval_start": "09:30:00",
+    "excel_interval_end": "09:30:10",
+    "pig_id": "blu - blue",
+    "colour": "blue",
+    "behaviour_code": "BOX",
+    "behaviour_label": "out_of_view_or_box"
+  },
+  {
+    "segment_id": "scan_09_30",
+    "excel_interval_start": "09:30:00",
+    "excel_interval_end": "09:30:10",
+    "pig_id": "viola - purple",
+    "colour": "purple",
+    "behaviour_code": "STI",
+    "behaviour_label": "lying_sternal"
+  },
+  {
+    "segment_id": "scan_09_30",
+    "excel_interval_start": "09:30:00",
+    "excel_interval_end": "09:30:10",
+    "pig_id": "rosso testa - red neck",
+    "colour": "red neck",
+    "behaviour_code": "BOX",
+    "behaviour_label": "out_of_view_or_box"
+  },
+  {
+    "segment_id": "scan_09_30",
+    "excel_interval_start": "09:30:00",
+    "excel_interval_end": "09:30:10",
+    "pig_id": "rosso coda - red tail",
+    "colour": "red tail",
+    "behaviour_code": "STI",
+    "behaviour_label": "lying_sternal"
+  },
+  {
+    "segment_id": "scan_09_30",
+    "excel_interval_start": "09:30:00",
+    "excel_interval_end": "09:30:10",
+    "pig_id": "# - no color",
+    "colour": "no color",
+    "behaviour_code": "BOX",
+    "behaviour_label": "out_of_view_or_box"
+  },
+  {
+    "segment_id": "scan_09_40",
+    "excel_interval_start": "09:40:00",
+    "excel_interval_end": "09:40:10",
+    "pig_id": "verde - green",
+    "colour": "green",
+    "behaviour_code": "AN",
+    "behaviour_label": "exploring_or_sniffing"
+  },
+  {
+    "segment_id": "scan_09_40",
+    "excel_interval_start": "09:40:00",
+    "excel_interval_end": "09:40:10",
+    "pig_id": "blu - blue",
+    "colour": "blue",
+    "behaviour_code": "BOX",
+    "behaviour_label": "out_of_view_or_box"
+  },
+  {
+    "segment_id": "scan_09_40",
+    "excel_interval_start": "09:40:00",
+    "excel_interval_end": "09:40:10",
+    "pig_id": "viola - purple",
+    "colour": "purple",
+    "behaviour_code": "STI",
+    "behaviour_label": "lying_sternal"
+  },
+  {
+    "segment_id": "scan_09_40",
+    "excel_interval_start": "09:40:00",
+    "excel_interval_end": "09:40:10",
+    "pig_id": "rosso testa - red neck",
+    "colour": "red neck",
+    "behaviour_code": "AN",
+    "behaviour_label": "exploring_or_sniffing"
+  },
+  {
+    "segment_id": "scan_09_40",
+    "excel_interval_start": "09:40:00",
+    "excel_interval_end": "09:40:10",
+    "pig_id": "rosso coda - red tail",
+    "colour": "red tail",
+    "behaviour_code": "IN",
+    "behaviour_label": "interaction"
+  },
+  {
+    "segment_id": "scan_09_40",
+    "excel_interval_start": "09:40:00",
+    "excel_interval_end": "09:40:10",
+    "pig_id": "# - no color",
+    "colour": "no color",
+    "behaviour_code": "AN",
+    "behaviour_label": "exploring_or_sniffing"
+  },
+  {
+    "segment_id": "scan_09_50",
+    "excel_interval_start": "09:50:00",
+    "excel_interval_end": "09:50:10",
+    "pig_id": "verde - green",
+    "colour": "green",
+    "behaviour_code": "LAI",
+    "behaviour_label": "lying_lateral"
+  },
+  {
+    "segment_id": "scan_09_50",
+    "excel_interval_start": "09:50:00",
+    "excel_interval_end": "09:50:10",
+    "pig_id": "blu - blue",
+    "colour": "blue",
+    "behaviour_code": "STI",
+    "behaviour_label": "lying_sternal"
+  },
+  {
+    "segment_id": "scan_09_50",
+    "excel_interval_start": "09:50:00",
+    "excel_interval_end": "09:50:10",
+    "pig_id": "viola - purple",
+    "colour": "purple",
+    "behaviour_code": "PI",
+    "behaviour_label": "standing_inactive"
+  },
+  {
+    "segment_id": "scan_09_50",
+    "excel_interval_start": "09:50:00",
+    "excel_interval_end": "09:50:10",
+    "pig_id": "rosso testa - red neck",
+    "colour": "red neck",
+    "behaviour_code": "STI",
+    "behaviour_label": "lying_sternal"
+  },
+  {
+    "segment_id": "scan_09_50",
+    "excel_interval_start": "09:50:00",
+    "excel_interval_end": "09:50:10",
+    "pig_id": "rosso coda - red tail",
+    "colour": "red tail",
+    "behaviour_code": "STI",
+    "behaviour_label": "lying_sternal"
+  },
+  {
+    "segment_id": "scan_09_50",
+    "excel_interval_start": "09:50:00",
+    "excel_interval_end": "09:50:10",
+    "pig_id": "# - no color",
+    "colour": "no color",
+    "behaviour_code": "STI",
+    "behaviour_label": "lying_sternal"
+  }
+]

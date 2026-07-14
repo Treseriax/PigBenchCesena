@@ -1,0 +1,4 @@
+"split","video_units","label_count","unique_colours","unique_behaviours","direct_tlc_records","candidate_ctoken_records","label_percentage"
+"test","2","72","6","10","36","36","16.67"
+"train","8","288","6","11","216","72","66.67"
+"val","2","72","6","10","36","36","16.67"

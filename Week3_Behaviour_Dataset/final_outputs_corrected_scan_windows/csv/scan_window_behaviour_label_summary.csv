@@ -1,0 +1,7 @@
+segment_id,excel_interval_start,excel_interval_end,num_pigs,colours,behaviour_codes,behaviour_labels
+scan_09_00,09:00:00,09:00:10,6,"green, blue, purple, red neck, red tail, no color","NU, NU, NU, NU, AN, NU","eating, eating, eating, eating, exploring_or_sniffing, eating"
+scan_09_10,09:10:00,09:10:10,6,"green, blue, purple, red neck, red tail, no color","BOX, BOX, BOX, BOX, STI, BOX","out_of_view_or_box, out_of_view_or_box, out_of_view_or_box, out_of_view_or_box, lying_sternal, out_of_view_or_box"
+scan_09_20,09:20:00,09:20:10,6,"green, blue, purple, red neck, red tail, no color","BOX, BOX, PI, BOX, STI, AN","out_of_view_or_box, out_of_view_or_box, standing_inactive, out_of_view_or_box, lying_sternal, exploring_or_sniffing"
+scan_09_30,09:30:00,09:30:10,6,"green, blue, purple, red neck, red tail, no color","BOX, BOX, STI, BOX, STI, BOX","out_of_view_or_box, out_of_view_or_box, lying_sternal, out_of_view_or_box, lying_sternal, out_of_view_or_box"
+scan_09_40,09:40:00,09:40:10,6,"green, blue, purple, red neck, red tail, no color","AN, BOX, STI, AN, IN, AN","exploring_or_sniffing, out_of_view_or_box, lying_sternal, exploring_or_sniffing, interaction, exploring_or_sniffing"
+scan_09_50,09:50:00,09:50:10,6,"green, blue, purple, red neck, red tail, no color","LAI, STI, PI, STI, STI, STI","lying_lateral, lying_sternal, standing_inactive, lying_sternal, lying_sternal, lying_sternal"

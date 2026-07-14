@@ -1,0 +1,6 @@
+"rank","feature_set","status","reason"
+"1","Manual labels + scanpoint frames","core","Ground truth alignment foundation"
+"2","YOLOv8 bbox geometry + QC flags","core","Interpretable object-level features"
+"3","Crop colour-marker features","candidate","Useful for colour ID association but not final GT"
+"4","Conservative bbox subset score>=0.50","optional","Cleaner features when precision matters"
+"5","Segmentation/embedding features","future","Promising but outside current validated implementation"

@@ -1,0 +1,4 @@
+"artifact","path","exists","size_mb"
+"presentation_pdf_v2","/home/oyavuz/PigBench/Week6_Unibo_Dataset_Validation/final_presentation/Week6_Unibo_Dataset_Validation_Presentation_v2_with_Segment_Anything_Model.pdf","True","1.259"
+"slide_count","","True","12.0"
+"segment_anything_contact_sheet","/home/oyavuz/PigBench/Week6_Unibo_Dataset_Validation/outputs/visual_label_check/week6_sam_box_prompt_segmentation_contact_sheet.jpg","True","0.624"

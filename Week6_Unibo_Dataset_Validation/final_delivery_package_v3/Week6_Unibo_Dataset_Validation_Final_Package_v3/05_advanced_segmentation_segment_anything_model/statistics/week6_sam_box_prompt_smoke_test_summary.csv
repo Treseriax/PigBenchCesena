@@ -1,0 +1,7 @@
+"check","status","evidence"
+"segment_anything_package_and_checkpoint","PASS","checkpoint_exists=True; size_mb=357.67"
+"device","PASS","cpu"
+"input_detections_loaded","PASS","rows=540; image_column=frame_image_path; bbox_columns=['x1', 'y1', 'x2', 'y2']"
+"sam_masks_generated","PASS","generated_masks=5"
+"reasonable_mask_area_fraction","PASS","[{""sample_id"": 0, ""mask_area_fraction_of_bbox"": 0.37361550632911394}, {""sample_id"": 1, ""mask_area_fraction_of_bbox"": 0.3526973026973027}, {""sample_id"": 2, ""mask_area_fraction_of_bbox"": 0.6638317434777612}, {""sample_id"": 3, ""mask_area_fraction_of_bbox"": 0.3844876902645827}, {""sample_id"": 4, ""mask_area_fraction_of_bbox"": 0.5831772366425831}]"
+"overlay_images_written","PASS","overlay_count=5"

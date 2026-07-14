@@ -1,0 +1,9 @@
+Raw Unibo videos are not included in this delivery package.
+
+Reason:
+The raw videos were already uploaded by the instructor on the server. They should not be duplicated inside this derived-output package.
+
+Server location:
+/work/pig/datasets/Unibo
+
+This package contains derived outputs, including unified ground truth files, scanpoint frames, detector outputs, feature tables, embeddings, segmentation outputs, visual quality control artifacts, scripts, notes, shared tracker, and presentation files.

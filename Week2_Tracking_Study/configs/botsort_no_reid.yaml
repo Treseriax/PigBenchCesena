@@ -1,0 +1,54 @@
+track_high_thresh:
+  type: uniform
+  default: 0.30
+  range: [0.1, 0.7]
+
+track_low_thresh:
+  type: uniform
+  default: 0.05
+  range: [0.01, 0.3]
+
+new_track_thresh:
+  type: uniform
+  default: 0.60
+  range: [0.1, 0.8]
+
+track_buffer:
+  type: randint
+  default: 60
+  range: [20, 81]
+
+match_thresh:
+  type: uniform
+  default: 0.75
+  range: [0.1, 0.9]
+
+proximity_thresh:
+  type: uniform
+  default: 0.50
+  range: [0.25, 0.75]
+
+appearance_thresh:
+  type: uniform
+  default: 0.25
+  range: [0.1, 0.8]
+
+cmc_method:
+  type: choice
+  default: ecc
+  options: ['sof', 'ecc']
+
+frame_rate:
+  type: choice
+  default: 10
+  choices: [10]
+
+fuse_first_associate:
+  type: choice
+  default: False
+  choices: [False, True]
+
+with_reid:
+  type: choice
+  default: False
+  choices: [False, True]

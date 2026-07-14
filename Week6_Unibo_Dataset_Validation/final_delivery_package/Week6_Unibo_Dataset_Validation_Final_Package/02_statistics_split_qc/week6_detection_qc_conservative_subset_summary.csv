@@ -1,0 +1,4 @@
+"subset","detection_count","frame_count_with_detections","mean_bboxes_per_frame","low_bbox_warning_frames","high_bbox_warning_frames"
+"primary_score_ge_0_25","540","72","7.5","10","4"
+"conservative_score_ge_0_50","447","72","6.208","",""
+"conservative_score_ge_0_70","376","72","5.222","",""

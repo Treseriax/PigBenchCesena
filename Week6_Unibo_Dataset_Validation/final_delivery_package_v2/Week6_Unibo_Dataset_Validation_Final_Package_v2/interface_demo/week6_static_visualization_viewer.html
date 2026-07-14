@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Week 6 Unibo Static Visualization Viewer</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 24px;
+  background: #f7f7f7;
+}
+h1 {
+  margin-bottom: 4px;
+}
+.summary {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 14px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.card img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+}
+code {
+  background: #eee;
+  padding: 2px 4px;
+}
+</style>
+</head>
+<body>
+<h1>Week 6 Unibo Static Visualization Viewer</h1>
+<div class="summary">
+<p>This static demo lists all scanpoint frames with manual colour-ID behaviour labels and detector bbox overlay images.</p>
+<p><b>Frame count:</b> 72 | <b>Source JSON:</b> <code>outputs/unified_ground_truth/week6_scanpoint_annotations_nested_for_viewer.json</code></p>
+<p><b>Note:</b> Detector bboxes are automatic YOLOv8-s outputs, not manual bbox ground truth. Colour-marker links are candidate-level only.</p>
+</div>
+
+    <div class="card">
+      <h3>scanframe_0000 — 2021-07-22T07:00:00</h3>
+      <p><b>Video:</b> TLC 1 -B1 0700-0800</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 10</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=LAI; purple=LAI; red_neck=LAI; red_tail=LAI; no_color=AN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0000__20210722_070000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0001 — 2021-07-22T07:10:00</h3>
+      <p><b>Video:</b> TLC 1 -B1 0700-0800</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 6</p>
+      <p><b>Behaviour summary:</b> green=AN; blue=LAI; purple=DE; red_neck=AN; red_tail=PI; no_color=PI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0001__20210722_071000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0002 — 2021-07-22T07:20:00</h3>
+      <p><b>Video:</b> TLC 1 -B1 0700-0800</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 4</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=LAI; purple=DE; red_neck=AN; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0002__20210722_072000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0003 — 2021-07-22T07:30:00</h3>
+      <p><b>Video:</b> TLC 1 -B1 0700-0800</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 7</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=LAI; purple=PI; red_neck=STI; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0003__20210722_073000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0004 — 2021-07-22T07:40:00</h3>
+      <p><b>Video:</b> TLC 1 -B1 0700-0800</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 6</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=LAI; purple=STI; red_neck=STI; red_tail=STI; no_color=PI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0004__20210722_074000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0005 — 2021-07-22T07:50:00</h3>
+      <p><b>Video:</b> TLC 1 -B1 0700-0800</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=AN; purple=STI; red_neck=AN; red_tail=SI; no_color=IA</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0005__20210722_075000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0006 — 2021-07-22T10:00:00</h3>
+      <p><b>Video:</b> TLC1 B1 1000-1100</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 6</p>
+      <p><b>Behaviour summary:</b> green=LAI; blue=LAI; purple=STI; red_neck=STI; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0006__20210722_100000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0007 — 2021-07-22T10:10:00</h3>
+      <p><b>Video:</b> TLC1 B1 1000-1100</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 7</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=DE; purple=STI; red_neck=PI; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0007__20210722_101000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0008 — 2021-07-22T10:20:00</h3>
+      <p><b>Video:</b> TLC1 B1 1000-1100</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 5</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=LAI; purple=STI; red_neck=STI; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0008__20210722_102000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0009 — 2021-07-22T10:30:00</h3>
+      <p><b>Video:</b> TLC1 B1 1000-1100</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=STI; purple=LAI; red_neck=STI; red_tail=SI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0009__20210722_103000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0010 — 2021-07-22T10:40:00</h3>
+      <p><b>Video:</b> TLC1 B1 1000-1100</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=STI; purple=BOX; red_neck=STI; red_tail=LAI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0010__20210722_104000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0011 — 2021-07-22T10:50:00</h3>
+      <p><b>Video:</b> TLC1 B1 1000-1100</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 5</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=AN; purple=STI; red_neck=LAI; red_tail=BE; no_color=LAI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0011__20210722_105000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0012 — 2021-07-22T11:00:00</h3>
+      <p><b>Video:</b> TLC1 B1 1100-1200</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=LAI; blue=STI; purple=STI; red_neck=LAI; red_tail=STI; no_color=LAI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0012__20210722_110000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0013 — 2021-07-22T11:10:00</h3>
+      <p><b>Video:</b> TLC1 B1 1100-1200</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 6</p>
+      <p><b>Behaviour summary:</b> green=LAI; blue=STI; purple=LAI; red_neck=LAI; red_tail=STI; no_color=LAI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0013__20210722_111000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0014 — 2021-07-22T11:20:00</h3>
+      <p><b>Video:</b> TLC1 B1 1100-1200</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 6</p>
+      <p><b>Behaviour summary:</b> green=LAI; blue=LAI; purple=LAI; red_neck=LAI; red_tail=STI; no_color=LAI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0014__20210722_112000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0015 — 2021-07-22T11:30:00</h3>
+      <p><b>Video:</b> TLC1 B1 1100-1200</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 7</p>
+      <p><b>Behaviour summary:</b> green=LAI; blue=LAI; purple=LAI; red_neck=BOX; red_tail=STI; no_color=LAI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0015__20210722_113000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0016 — 2021-07-22T11:40:00</h3>
+      <p><b>Video:</b> TLC1 B1 1100-1200</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=LAI; blue=STI; purple=LAI; red_neck=BOX; red_tail=STI; no_color=BOX</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0016__20210722_114000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0017 — 2021-07-22T11:50:00</h3>
+      <p><b>Video:</b> TLC1 B1 1100-1200</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 6</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=STI; purple=LAI; red_neck=STI; red_tail=AN; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0017__20210722_115000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0018 — 2021-07-22T12:00:00</h3>
+      <p><b>Video:</b> TLC1 B1 1200-1300</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 6</p>
+      <p><b>Behaviour summary:</b> green=BOX; blue=DE; purple=BOX; red_neck=AN; red_tail=STI; no_color=IN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0018__20210722_120000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0019 — 2021-07-22T12:10:00</h3>
+      <p><b>Video:</b> TLC1 B1 1200-1300</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 9</p>
+      <p><b>Behaviour summary:</b> green=IN; blue=LAI; purple=STI; red_neck=STI; red_tail=IN; no_color=AN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0019__20210722_121000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0020 — 2021-07-22T12:20:00</h3>
+      <p><b>Video:</b> TLC1 B1 1200-1300</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 5</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=LAI; purple=BOX; red_neck=STI; red_tail=STI; no_color=PI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0020__20210722_122000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0021 — 2021-07-22T12:30:00</h3>
+      <p><b>Video:</b> TLC1 B1 1200-1300</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 5</p>
+      <p><b>Behaviour summary:</b> green=IN; blue=LAI; purple=BOX; red_neck=STI; red_tail=STI; no_color=IN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0021__20210722_123000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0022 — 2021-07-22T12:40:00</h3>
+      <p><b>Video:</b> TLC1 B1 1200-1300</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 7</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=STI; purple=AN; red_neck=STI; red_tail=STI; no_color=BOX</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0022__20210722_124000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0023 — 2021-07-22T12:50:00</h3>
+      <p><b>Video:</b> TLC1 B1 1200-1300</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 5</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=AN; purple=IA; red_neck=STI; red_tail=BE; no_color=IA</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0023__20210722_125000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0024 — 2021-07-22T13:00:00</h3>
+      <p><b>Video:</b> TLC1 B1 1300-1400</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 5</p>
+      <p><b>Behaviour summary:</b> green=IN; blue=STI; purple=LAI; red_neck=STI; red_tail=STI; no_color=IN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0024__20210722_130000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0025 — 2021-07-22T13:10:00</h3>
+      <p><b>Video:</b> TLC1 B1 1300-1400</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 7</p>
+      <p><b>Behaviour summary:</b> green=AN; blue=STI; purple=AN; red_neck=AN; red_tail=STI; no_color=AN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0025__20210722_131000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0026 — 2021-07-22T13:20:00</h3>
+      <p><b>Video:</b> TLC1 B1 1300-1400</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=STI; purple=IA; red_neck=IN; red_tail=IA; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0026__20210722_132000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0027 — 2021-07-22T13:30:00</h3>
+      <p><b>Video:</b> TLC1 B1 1300-1400</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 6</p>
+      <p><b>Behaviour summary:</b> green=LAI; blue=SI; purple=STI; red_neck=IN; red_tail=SI; no_color=AN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0027__20210722_133000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0028 — 2021-07-22T13:40:00</h3>
+      <p><b>Video:</b> TLC1 B1 1300-1400</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 7</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=SI; purple=STI; red_neck=STI; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0028__20210722_134000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0029 — 2021-07-22T13:50:00</h3>
+      <p><b>Video:</b> TLC1 B1 1300-1400</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 7</p>
+      <p><b>Behaviour summary:</b> green=SI; blue=STI; purple=LAI; red_neck=IN; red_tail=LAI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0029__20210722_135000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0030 — 2021-07-22T14:00:00</h3>
+      <p><b>Video:</b> TLC1 B1 1400-1500</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 9</p>
+      <p><b>Behaviour summary:</b> green=AN; blue=IN; purple=IN; red_neck=AN; red_tail=SI; no_color=BOX</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0030__20210722_140000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0031 — 2021-07-22T14:10:00</h3>
+      <p><b>Video:</b> TLC1 B1 1400-1500</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=AN; blue=SI; purple=STI; red_neck=STI; red_tail=IN; no_color=BE</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0031__20210722_141000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0032 — 2021-07-22T14:20:00</h3>
+      <p><b>Video:</b> TLC1 B1 1400-1500</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 7</p>
+      <p><b>Behaviour summary:</b> green=PI; blue=STI; purple=STI; red_neck=BOX; red_tail=STI; no_color=PI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0032__20210722_142000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0033 — 2021-07-22T14:30:00</h3>
+      <p><b>Video:</b> TLC1 B1 1400-1500</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 10</p>
+      <p><b>Behaviour summary:</b> green=NU; blue=NU; purple=NU; red_neck=NU; red_tail=NU; no_color=NU</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0033__20210722_143000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0034 — 2021-07-22T14:40:00</h3>
+      <p><b>Video:</b> TLC1 B1 1400-1500</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=NU; blue=NU; purple=NU; red_neck=NU; red_tail=NU; no_color=NU</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0034__20210722_144000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0035 — 2021-07-22T14:50:00</h3>
+      <p><b>Video:</b> TLC1 B1 1400-1500</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 13</p>
+      <p><b>Behaviour summary:</b> green=BOX; blue=BOX; purple=IN; red_neck=BOX; red_tail=BOX; no_color=IN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0035__20210722_145000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0036 — 2021-07-22T08:00:00</h3>
+      <p><b>Video:</b> TLC1 B1 800-900</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=STI; purple=STI; red_neck=IN; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0036__20210722_080000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0037 — 2021-07-22T08:10:00</h3>
+      <p><b>Video:</b> TLC1 B1 800-900</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=LAI; purple=STI; red_neck=STI; red_tail=STI; no_color=PI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0037__20210722_081000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0038 — 2021-07-22T08:20:00</h3>
+      <p><b>Video:</b> TLC1 B1 800-900</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 14</p>
+      <p><b>Behaviour summary:</b> green=PI; blue=PI; purple=PI; red_neck=PI; red_tail=SI; no_color=PI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0038__20210722_082000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0039 — 2021-07-22T08:30:00</h3>
+      <p><b>Video:</b> TLC1 B1 800-900</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 9</p>
+      <p><b>Behaviour summary:</b> green=PI; blue=STI; purple=PI; red_neck=AN; red_tail=PI; no_color=PI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0039__20210722_083000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0040 — 2021-07-22T08:40:00</h3>
+      <p><b>Video:</b> TLC1 B1 800-900</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 7</p>
+      <p><b>Behaviour summary:</b> green=PI; blue=STI; purple=STI; red_neck=STI; red_tail=LAI; no_color=PI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0040__20210722_084000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0041 — 2021-07-22T08:50:00</h3>
+      <p><b>Video:</b> TLC1 B1 800-900</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 5</p>
+      <p><b>Behaviour summary:</b> green=NU; blue=NU; purple=NU; red_neck=NU; red_tail=NU; no_color=NU</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0041__20210722_085000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0042 — 2021-07-22T09:00:00</h3>
+      <p><b>Video:</b> TLC1 B1 900-1000</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 10</p>
+      <p><b>Behaviour summary:</b> green=NU; blue=NU; purple=NU; red_neck=NU; red_tail=AN; no_color=NU</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0042__20210722_090000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0043 — 2021-07-22T09:10:00</h3>
+      <p><b>Video:</b> TLC1 B1 900-1000</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=BOX; blue=BOX; purple=BOX; red_neck=BOX; red_tail=STI; no_color=BOX</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0043__20210722_091000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0044 — 2021-07-22T09:20:00</h3>
+      <p><b>Video:</b> TLC1 B1 900-1000</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 7</p>
+      <p><b>Behaviour summary:</b> green=BOX; blue=BOX; purple=PI; red_neck=BOX; red_tail=STI; no_color=AN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0044__20210722_092000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0045 — 2021-07-22T09:30:00</h3>
+      <p><b>Video:</b> TLC1 B1 900-1000</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=BOX; blue=BOX; purple=STI; red_neck=BOX; red_tail=STI; no_color=BOX</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0045__20210722_093000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0046 — 2021-07-22T09:40:00</h3>
+      <p><b>Video:</b> TLC1 B1 900-1000</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=AN; blue=BOX; purple=STI; red_neck=AN; red_tail=IN; no_color=AN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0046__20210722_094000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0047 — 2021-07-22T09:50:00</h3>
+      <p><b>Video:</b> TLC1 B1 900-1000</p>
+      <p><b>Video match:</b> matched_tlc_hour_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 9</p>
+      <p><b>Behaviour summary:</b> green=LAI; blue=STI; purple=PI; red_neck=STI; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0047__20210722_095000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0048 — 2021-07-22T15:00:00</h3>
+      <p><b>Video:</b> c0001210722150000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=BOX; blue=BOX; purple=BOX; red_neck=AN; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0048__20210722_150000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0049 — 2021-07-22T15:10:00</h3>
+      <p><b>Video:</b> c0001210722150000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 6</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=STI; purple=STI; red_neck=BOX; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0049__20210722_151000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0050 — 2021-07-22T15:20:00</h3>
+      <p><b>Video:</b> c0001210722150000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 6</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=BOX; purple=BOX; red_neck=AN; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0050__20210722_152000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0051 — 2021-07-22T15:30:00</h3>
+      <p><b>Video:</b> c0001210722150000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 6</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=SI; purple=STI; red_neck=LAI; red_tail=BOX; no_color=LAI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0051__20210722_153000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0052 — 2021-07-22T15:40:00</h3>
+      <p><b>Video:</b> c0001210722150000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 7</p>
+      <p><b>Behaviour summary:</b> green=LAI; blue=STI; purple=LAI; red_neck=BOX; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0052__20210722_154000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0053 — 2021-07-22T15:50:00</h3>
+      <p><b>Video:</b> c0001210722150000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 6</p>
+      <p><b>Behaviour summary:</b> green=LAI; blue=STI; purple=LAI; red_neck=LAI; red_tail=STI; no_color=BOX</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0053__20210722_155000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0054 — 2021-07-22T16:00:00</h3>
+      <p><b>Video:</b> c0001210722160000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=BOX; blue=STI; purple=AN; red_neck=LAI; red_tail=LAI; no_color=IN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0054__20210722_160000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0055 — 2021-07-22T16:10:00</h3>
+      <p><b>Video:</b> c0001210722160000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=BOX; purple=AN; red_neck=IN; red_tail=IN; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0055__20210722_161000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0056 — 2021-07-22T16:20:00</h3>
+      <p><b>Video:</b> c0001210722160000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 6</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=BOX; purple=STI; red_neck=AN; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0056__20210722_162000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0057 — 2021-07-22T16:30:00</h3>
+      <p><b>Video:</b> c0001210722160000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 10</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=BOX; purple=STI; red_neck=BOX; red_tail=BOX; no_color=BOX</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0057__20210722_163000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0058 — 2021-07-22T16:40:00</h3>
+      <p><b>Video:</b> c0001210722160000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 9</p>
+      <p><b>Behaviour summary:</b> green=BOX; blue=STI; purple=STI; red_neck=AN; red_tail=LAI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0058__20210722_164000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0059 — 2021-07-22T16:50:00</h3>
+      <p><b>Video:</b> c0001210722160000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 12</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=BOX; purple=BOX; red_neck=AN; red_tail=STI; no_color=BOX</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0059__20210722_165000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0060 — 2021-07-22T17:00:00</h3>
+      <p><b>Video:</b> c0001210722170000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 12</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=AN; purple=AN; red_neck=AN; red_tail=STI; no_color=AN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0060__20210722_170000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0061 — 2021-07-22T17:10:00</h3>
+      <p><b>Video:</b> c0001210722170000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 10</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=BE; purple=SI; red_neck=BE; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0061__20210722_171000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0062 — 2021-07-22T17:20:00</h3>
+      <p><b>Video:</b> c0001210722170000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 9</p>
+      <p><b>Behaviour summary:</b> green=AN; blue=STI; purple=SI; red_neck=DE; red_tail=AN; no_color=AN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0062__20210722_172000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0063 — 2021-07-22T17:30:00</h3>
+      <p><b>Video:</b> c0001210722170000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 7</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=AN; purple=STI; red_neck=STI; red_tail=STI; no_color=BOX</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0063__20210722_173000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0064 — 2021-07-22T17:40:00</h3>
+      <p><b>Video:</b> c0001210722170000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 8</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=STI; purple=STI; red_neck=AN; red_tail=STI; no_color=LAI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0064__20210722_174000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0065 — 2021-07-22T17:50:00</h3>
+      <p><b>Video:</b> c0001210722170000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 6</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=STI; purple=AN; red_neck=AN; red_tail=BOX; no_color=AN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0065__20210722_175000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0066 — 2021-07-22T18:00:00</h3>
+      <p><b>Video:</b> c0001210722180000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 5</p>
+      <p><b>Behaviour summary:</b> green=AN; blue=STI; purple=BOX; red_neck=AN; red_tail=AN; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0066__20210722_180000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0067 — 2021-07-22T18:10:00</h3>
+      <p><b>Video:</b> c0001210722180000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 7</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=STI; purple=LAI; red_neck=AN; red_tail=STI; no_color=STI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0067__20210722_181000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0068 — 2021-07-22T18:20:00</h3>
+      <p><b>Video:</b> c0001210722180000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 5</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=STI; purple=STI; red_neck=STI; red_tail=STI; no_color=AN</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0068__20210722_182000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0069 — 2021-07-22T18:30:00</h3>
+      <p><b>Video:</b> c0001210722180000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 9</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=LAI; purple=LAI; red_neck=LAI; red_tail=STI; no_color=LAI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0069__20210722_183000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0070 — 2021-07-22T18:40:00</h3>
+      <p><b>Video:</b> c0001210722180000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 7</p>
+      <p><b>Behaviour summary:</b> green=STI; blue=LAI; purple=LAI; red_neck=LAI; red_tail=STI; no_color=LAI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0070__20210722_184000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+    <div class="card">
+      <h3>scanframe_0071 — 2021-07-22T18:50:00</h3>
+      <p><b>Video:</b> c0001210722180000</p>
+      <p><b>Video match:</b> candidate_recovered_ctoken_video</p>
+      <p><b>Manual labels:</b> 6 | <b>Detector bboxes:</b> 9</p>
+      <p><b>Behaviour summary:</b> green=LAI; blue=LAI; purple=LAI; red_neck=LAI; red_tail=DE; no_color=LAI</p>
+      <img src='../outputs/visual_label_check/marker_bbox_overlay_v3/scanframe_0071__20210722_185000__marker_bbox_overlay_v3.jpg'>
+    </div>
+    
+</body>
+</html>
