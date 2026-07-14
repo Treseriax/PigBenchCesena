@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+,/
+
+# Editor/system
+.DS_Store
+.vscode/
+.idea/
+
+# Large datasets and media
+data/
+datasets/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.weights
+
+# Large/generated arrays and binary outputs
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Generated outputs / experiment artifacts
+outputs/
+final_outputs/
+tmp/
+temp/
+cache/
+logs/
+runs/
+wandb/
+
+# Week output-heavy folders
+Week2_Tracking_Study/
+Week3_Behaviour_Dataset/
+Week4_5_Behaviour_Representation/
+Week6_Unibo_Dataset_Validation/
+Week7_Dataset_Validation_Identity_Tracking_Behaviour_Preparation/
