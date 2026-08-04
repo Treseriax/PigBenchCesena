@@ -1,0 +1,11 @@
+# Week 8 v62a Canonical Excel Structure Audit Report
+
+Decision: canonical_excel_structure_audit_completed
+
+Source video summary: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v62a_canonical_excel_structure_audit/week8_v62a_source_video_summary.csv`
+
+Source-to-Excel candidate alignment: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v62a_canonical_excel_structure_audit/week8_v62a_source_to_excel_candidate_alignment.csv`
+
+Excel sheet grid markers: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v62a_canonical_excel_structure_audit/week8_v62a_excel_sheet_grid_markers.csv`
+
+Relevant sheet preview: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v62a_canonical_excel_structure_audit/week8_v62a_relevant_sheet_preview.csv`

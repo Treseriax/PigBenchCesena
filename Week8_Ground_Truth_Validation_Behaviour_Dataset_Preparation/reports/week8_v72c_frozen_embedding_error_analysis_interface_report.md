@@ -1,0 +1,11 @@
+# Week 8 v72c Frozen Embedding Error Analysis Interface Report
+
+Decision: frozen_embedding_error_analysis_interface_created
+
+Champion prediction rows: 150
+
+Errors: 102
+
+ZIP: /home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v72c_frozen_embedding_error_analysis_interface/Week8_Frozen_Embedding_Error_Analysis_Interface.zip
+
+SHA256: 00c8f128547e7928e89c49518d1d01a9847fa0dcf2620d71193a03d2e5e695cd

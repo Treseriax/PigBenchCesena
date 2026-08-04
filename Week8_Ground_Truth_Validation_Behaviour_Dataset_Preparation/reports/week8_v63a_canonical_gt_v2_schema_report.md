@@ -1,0 +1,11 @@
+# Week 8 v63a Canonical GT v2 Schema Report
+
+Decision: canonical_gt_v2_schema_created
+
+Canonical targets: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v63a_canonical_gt_v2_schema/week8_v63a_canonical_gt_v2_targets.csv`
+
+Candidate boxes: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v63a_canonical_gt_v2_schema/week8_v63a_existing_anchor_candidate_boxes.csv`
+
+Scanframe status: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v63a_canonical_gt_v2_schema/week8_v63a_scanframe_gt_v2_initial_status.csv`
+
+Manual template: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/validation/week8_v63a_manual_gt_v2_assignment_template.csv`

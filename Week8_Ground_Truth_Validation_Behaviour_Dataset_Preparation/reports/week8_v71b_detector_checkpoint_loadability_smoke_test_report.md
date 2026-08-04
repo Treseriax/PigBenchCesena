@@ -1,0 +1,13 @@
+# Week 8 v71b Detector Checkpoint Loadability Smoke Test Report
+
+Decision: detector_checkpoint_loadability_smoke_test_completed
+
+Recommended route: mmdet_extract_feat_detector_embedding
+
+Recommended checkpoint: /home/oyavuz/PigBench/detection/data/pretrained_weights/yolov8_pigs/yolov8_s.pth
+
+Recommended config: /home/oyavuz/PigBench/detection/configs/yolov8/yolov8_s.py
+
+ZIP: /home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v71b_detector_checkpoint_loadability_smoke_test/Week8_Detector_Checkpoint_Loadability_Smoke_Test.zip
+
+SHA256: 0e4506619dd0f23e1a4c577a22cbf702be2f658b633c35c756d3dd9270c46880

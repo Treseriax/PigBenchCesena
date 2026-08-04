@@ -1,0 +1,9 @@
+# Week 8 v68a Strict-Gold Anchor-Frame Crop Materialization Report
+
+Decision: strict_gold_anchor_crop_materialization_completed
+
+Dataset directory: /home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v68a_strict_gold_anchor_crop_materialization/Week8_StrictGold_AnchorFrame_Crop_Dataset
+
+ZIP: /home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v68a_strict_gold_anchor_crop_materialization/Week8_StrictGold_AnchorFrame_Crop_Dataset.zip
+
+SHA256: af062ed5447c8edac51dd4e40626e9337032a503e2737db9499a94399beb1bc9

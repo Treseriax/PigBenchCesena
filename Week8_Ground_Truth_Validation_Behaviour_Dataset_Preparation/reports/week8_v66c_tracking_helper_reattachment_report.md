@@ -1,0 +1,11 @@
+# Week 8 v66c Tracking Helper Reattachment Report
+
+Decision: tracking_helper_reattachment_completed
+
+Inventory: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v66c_tracking_helper_reattachment/week8_v66c_tracking_helper_file_inventory.csv`
+
+Scanframe helper summary: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v66c_tracking_helper_reattachment/week8_v66c_scanframe_tracking_helper_summary.csv`
+
+Object helper summary: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v66c_tracking_helper_reattachment/week8_v66c_final_gt_v2_object_tracking_helper_summary.csv`
+
+Important: tracking helper outputs do not override final manual GT v2.

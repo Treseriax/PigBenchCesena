@@ -1,0 +1,75 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Week8 v63b Canonical GT Assignment</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <h2>v63b GT Assignment</h2>
+      <div class="small">Canonical colours come from original Excel v62b2.</div>
+
+      <div class="controls">
+        <label>Filter</label>
+        <select id="filterStatus">
+          <option value="">All</option>
+          <option value="P0_gt_anchor_problem">P0 GT anchor</option>
+          <option value="P1_manual_major_or_critical_issue">P1 major/critical</option>
+          <option value="P1_candidate_box_count_not_six">P1 box count</option>
+          <option value="P2_review_required">P2 review</option>
+          <option value="P3_standard_review">P3 standard</option>
+        </select>
+
+        <label>Search scanframe</label>
+        <input id="searchBox" placeholder="scanframe_0039">
+
+        <button id="refreshBtn">Refresh</button>
+      </div>
+
+      <div id="statusSummary" class="summary"></div>
+      <div id="scanList"></div>
+    </aside>
+
+    <main id="main">
+      <section id="videoPanel">
+        <div id="topBar">
+          <div>
+            <h1 id="title">Select a scanframe</h1>
+            <div id="subtitle"></div>
+          </div>
+          <div class="toggles">
+            <label><input type="checkbox" id="showBoxes" checked> candidate boxes</label>
+            <label><input type="checkbox" id="showLabels" checked> box labels</label>
+          </div>
+        </div>
+
+        <div id="videoWrap">
+          <video id="video" controls muted></video>
+          <canvas id="overlay"></canvas>
+        </div>
+
+        <div id="playButtons">
+          <button data-seek="0">0s</button>
+          <button data-seek="2.5">2.5s</button>
+          <button data-seek="5">5s</button>
+          <button data-seek="7.5">7.5s</button>
+          <button data-seek="9.9">10s</button>
+        </div>
+      </section>
+
+      <section id="assignmentPanel">
+        <h2>Canonical Excel targets</h2>
+        <div class="small">
+          Assign each canonical colour to the correct candidate box, or mark it as missing / wrong / needs redraw.
+        </div>
+        <div id="targetRows"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

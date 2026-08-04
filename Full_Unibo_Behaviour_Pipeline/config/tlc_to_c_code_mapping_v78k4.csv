@@ -1,0 +1,7 @@
+"date","tlc_camera","resolved_pens_from_excel","target_ids","manual_decision","manual_visual_group","manual_primary_side_code","manual_secondary_side_code","manual_top_view_code","manual_confidence","manual_evidence_note","saved_at"
+"2021-07-22","TLC1","B1;B3","target_001;target_002","RESOLVED","GROUP_A","c0002","c0000","c0100","high","Locked from TLC1 visual anchor.","2026-07-28T23:18:28"
+"2021-07-22","TLC2","B4;B6","target_003;target_004","UNRESOLVED","","","","","","",""
+"2021-07-22","TLC3","C1;C3","target_005;target_006","UNRESOLVED","","","","","","",""
+"2021-07-22","TLC4","C4;C6","target_007;target_008","UNRESOLVED","","","","","","",""
+"2021-07-22","TLC5","M1;M2","target_009;target_010","UNRESOLVED","","","","","","",""
+"2021-07-22","TLC6","M3;M4","target_011;target_012","UNRESOLVED","","","","","","",""

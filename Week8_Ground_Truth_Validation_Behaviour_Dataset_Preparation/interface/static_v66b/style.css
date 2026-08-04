@@ -1,0 +1,184 @@
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #101010;
+  color: #eee;
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+#sidebar {
+  width: 370px;
+  padding: 14px;
+  background: #181818;
+  border-right: 1px solid #333;
+  overflow-y: auto;
+}
+
+main {
+  flex: 1;
+  overflow-y: auto;
+}
+
+h1, h2 {
+  margin: 0 0 8px 0;
+}
+
+.small {
+  font-size: 12px;
+  color: #aaa;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+
+select, input, button {
+  width: 100%;
+  background: #222;
+  color: #eee;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 7px;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+button:hover {
+  background: #333;
+}
+
+.summary {
+  white-space: pre-wrap;
+  color: #ccc;
+  font-size: 12px;
+  margin: 12px 0;
+}
+
+.scanItem {
+  padding: 8px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  background: #202020;
+  cursor: pointer;
+}
+
+.scanItem:hover {
+  background: #2a2a2a;
+}
+
+.scanItem.active {
+  outline: 2px solid #ccc;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 4px;
+  margin-top: 4px;
+  font-size: 11px;
+  background: #333;
+}
+
+#top {
+  padding: 14px;
+  border-bottom: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.toggles {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.toggles label {
+  margin: 0;
+}
+
+#videoSection {
+  padding: 14px;
+  border-bottom: 1px solid #333;
+}
+
+#videoWrap {
+  position: relative;
+  width: fit-content;
+  max-width: 100%;
+}
+
+#video {
+  max-width: calc(100vw - 420px);
+  max-height: 55vh;
+  background: black;
+}
+
+#overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+#seekButtons {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+#seekButtons button {
+  width: auto;
+}
+
+#objectPanel {
+  padding: 14px;
+}
+
+.objCard {
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 8px;
+  background: #181818;
+}
+
+.objHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.strict {
+  color: #9ee59e;
+}
+
+.caution {
+  color: #ffcf75;
+}
+
+.nonusable {
+  color: #ff8888;
+}
+
+.kv {
+  font-size: 12px;
+  color: #bbb;
+  margin-top: 5px;
+  line-height: 1.35;
+}

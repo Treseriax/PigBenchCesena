@@ -1,0 +1,11 @@
+# Week 8 v64b Full Manual GT v2 Audit Report
+
+Decision: full_manual_gt_v2_audit_passed
+
+Strict gold object GT: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v64b_full_manual_gt_v2_audit/week8_v64b_strict_gold_usable_object_gt.csv`
+
+Caution object GT: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v64b_full_manual_gt_v2_audit/week8_v64b_caution_usable_object_gt.csv`
+
+Nonusable/fix object GT: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v64b_full_manual_gt_v2_audit/week8_v64b_nonusable_or_fix_required_object_gt.csv`
+
+Inconsistencies: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v64b_full_manual_gt_v2_audit/week8_v64b_assignment_inconsistencies.csv`

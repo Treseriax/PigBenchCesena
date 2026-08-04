@@ -1,0 +1,11 @@
+# Week 8 v67b Independent Package Audit Report
+
+Decision: independent_package_audit_passed
+
+ZIP: /home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v67_week8_report_ready_package/Week8_Report_Ready_GT_v2_Package.zip
+
+SHA256: 218a3c952bc9613a54f25d0a64e4c3ffc43e6639c2bd5bac027c164347f8042b
+
+Quality checks: /home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v67b_independent_package_audit/week8_v67b_independent_package_quality_checks.csv
+
+Issues: /home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v67b_independent_package_audit/week8_v67b_issues.csv

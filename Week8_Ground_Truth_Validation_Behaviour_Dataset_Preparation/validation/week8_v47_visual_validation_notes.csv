@@ -1,0 +1,2 @@
+"created_at","scan_frame_id","video_id","video_current_time_sec","estimated_frame_index_in_clip","issue_type","severity","note","visible_layers"
+"2026-07-16T20:37:08","scanframe_0018","TLC1 B1 1200-1300","10","249","colour_error","info","","showBoxes|showPigId|showColour|showBehaviour|showTimestamp|showFlags"

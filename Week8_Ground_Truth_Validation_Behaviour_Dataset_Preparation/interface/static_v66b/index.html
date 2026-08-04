@@ -1,0 +1,81 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Week8 v66b Final GT v2 Inspection</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <h2>Final GT v2</h2>
+      <div class="small">Inspection only. No GT editing here.</div>
+
+      <label>Category</label>
+      <select id="categoryFilter">
+        <option value="">All</option>
+        <option value="strict_gold_classification">strict_gold_classification</option>
+        <option value="caution_analysis">caution_analysis</option>
+        <option value="nonusable_fix_or_excluded">nonusable_fix_or_excluded</option>
+      </select>
+
+      <label>Behaviour</label>
+      <select id="behaviourFilter">
+        <option value="">All</option>
+      </select>
+
+      <label>Search scanframe</label>
+      <input id="searchBox" placeholder="scanframe_0035">
+
+      <label>
+        <input type="checkbox" id="onlyProblemClips">
+        show clips with nonusable/caution
+      </label>
+
+      <button id="refreshBtn">Refresh</button>
+
+      <div id="summary" class="summary"></div>
+      <div id="scanList"></div>
+    </aside>
+
+    <main>
+      <section id="top">
+        <div>
+          <h1 id="title">Select scanframe</h1>
+          <div id="subtitle"></div>
+        </div>
+
+        <div class="toggles">
+          <label><input type="checkbox" id="showStrict" checked> strict</label>
+          <label><input type="checkbox" id="showCaution" checked> caution</label>
+          <label><input type="checkbox" id="showNonusable" checked> nonusable</label>
+          <label><input type="checkbox" id="showLabels" checked> labels</label>
+        </div>
+      </section>
+
+      <section id="videoSection">
+        <div id="videoWrap">
+          <video id="video" controls muted></video>
+          <canvas id="overlay"></canvas>
+        </div>
+
+        <div id="seekButtons">
+          <button data-seek="0">0s</button>
+          <button data-seek="2.5">2.5s</button>
+          <button data-seek="5">5s</button>
+          <button data-seek="7.5">7.5s</button>
+          <button data-seek="9.9">10s</button>
+        </div>
+      </section>
+
+      <section id="objectPanel">
+        <h2>Objects</h2>
+        <div id="objects"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

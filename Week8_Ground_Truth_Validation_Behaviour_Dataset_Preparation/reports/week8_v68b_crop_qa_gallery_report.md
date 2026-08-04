@@ -1,0 +1,9 @@
+# Week 8 v68b Crop QA Gallery Report
+
+Decision: crop_qa_gallery_completed
+
+Gallery directory: /home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v68b_crop_qa_gallery/Week8_StrictGold_Crop_QA_Gallery
+
+ZIP: /home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v68b_crop_qa_gallery/Week8_StrictGold_Crop_QA_Gallery.zip
+
+SHA256: 545e19f87455ef433f7915362f20c880240c489644b3c78555dbf9014e16bd0e

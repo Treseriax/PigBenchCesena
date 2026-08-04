@@ -1,0 +1,14 @@
+nohup: ignoring input
+127.0.0.1 - - [21/Jul/2026 10:24:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Jul/2026 10:24:24] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Jul/2026 10:24:24] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Jul/2026 10:24:25] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Jul/2026 10:24:25] "GET /api/data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Jul/2026 10:24:25] "GET /api/assignments HTTP/1.1" 200 -
+127.0.0.1 - - [21/Jul/2026 10:24:25] "GET /video?path=%2Fhome%2Foyavuz%2FPigBench%2FWeek7_Dataset_Validation_Identity_Tracking_Behaviour_Preparation%2Foutputs%2Fclip_extraction_temporal_qa_v26%2Fclips%2Fscanframe_0000__TLC_1_-B1_0700-0800__centerf_000000__00000000ms_00010000ms.mp4 HTTP/1.1" 206 -
+127.0.0.1 - - [21/Jul/2026 10:24:26] "GET /video?path=%2Fhome%2Foyavuz%2FPigBench%2FWeek7_Dataset_Validation_Identity_Tracking_Behaviour_Preparation%2Foutputs%2Fclip_extraction_temporal_qa_v26%2Fclips%2Fscanframe_0000__TLC_1_-B1_0700-0800__centerf_000000__00000000ms_00010000ms.mp4 HTTP/1.1" 206 -
+127.0.0.1 - - [21/Jul/2026 10:24:26] "GET /video?path=%2Fhome%2Foyavuz%2FPigBench%2FWeek7_Dataset_Validation_Identity_Tracking_Behaviour_Preparation%2Foutputs%2Fclip_extraction_temporal_qa_v26%2Fclips%2Fscanframe_0000__TLC_1_-B1_0700-0800__centerf_000000__00000000ms_00010000ms.mp4 HTTP/1.1" 206 -
+127.0.0.1 - - [21/Jul/2026 10:25:02] "GET /video?path=%2Fhome%2Foyavuz%2FPigBench%2FWeek7_Dataset_Validation_Identity_Tracking_Behaviour_Preparation%2Foutputs%2Fclip_extraction_temporal_qa_v26%2Fclips%2Fscanframe_0002__TLC_1_-B1_0700-0800__centerf_030000__01195014ms_01205014ms.mp4 HTTP/1.1" 206 -
+127.0.0.1 - - [21/Jul/2026 10:25:02] "GET /video?path=%2Fhome%2Foyavuz%2FPigBench%2FWeek7_Dataset_Validation_Identity_Tracking_Behaviour_Preparation%2Foutputs%2Fclip_extraction_temporal_qa_v26%2Fclips%2Fscanframe_0002__TLC_1_-B1_0700-0800__centerf_030000__01195014ms_01205014ms.mp4 HTTP/1.1" 206 -
+127.0.0.1 - - [21/Jul/2026 10:25:02] "GET /video?path=%2Fhome%2Foyavuz%2FPigBench%2FWeek7_Dataset_Validation_Identity_Tracking_Behaviour_Preparation%2Foutputs%2Fclip_extraction_temporal_qa_v26%2Fclips%2Fscanframe_0002__TLC_1_-B1_0700-0800__centerf_030000__01195014ms_01205014ms.mp4 HTTP/1.1" 206 -
+127.0.0.1 - - [21/Jul/2026 10:25:07] "GET /video?path=%2Fhome%2Foyavuz%2FPigBench%2FWeek7_Dataset_Validation_Identity_Tracking_Behaviour_Preparation%2Foutputs%2Fclip_extraction_temporal_qa_v26%2Fclips%2Fscanframe_0002__TLC_1_-B1_0700-0800__centerf_030000__01195014ms_01205014ms.mp4 HTTP/1.1" 206 -

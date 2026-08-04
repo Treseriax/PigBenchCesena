@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Week 8 Behaviour Dataset Visualizer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Week 8 Behaviour Dataset Visualizer</h1>
+      <p>Video + propagated ground truth validation interface</p>
+    </div>
+    <div id="statusBadge">Loading...</div>
+  </header>
+
+  <main>
+    <aside>
+      <h2>Clips</h2>
+      <input id="clipSearch" type="text" placeholder="Search scanframe / behaviour / split">
+      <select id="clipSelect" size="20"></select>
+
+      <section class="panel">
+        <h3>Overlay layers</h3>
+        <label><input type="checkbox" id="showBoxes" checked> Bounding boxes</label>
+        <label><input type="checkbox" id="showPigId" checked> Pig ID</label>
+        <label><input type="checkbox" id="showColour" checked> Colour identity</label>
+        <label><input type="checkbox" id="showBehaviour" checked> Behaviour label</label>
+        <label><input type="checkbox" id="showTimestamp" checked> Frame / timestamp</label>
+        <label><input type="checkbox" id="showFlags" checked> Validation flags</label>
+      </section>
+
+      <section class="panel">
+        <h3>Validation note</h3>
+        <label>Issue type</label>
+        <select id="issueType">
+          <option value="colour_error">colour_error</option>
+          <option value="behaviour_error">behaviour_error</option>
+          <option value="identity_switch">identity_switch</option>
+          <option value="missing_label">missing_label</option>
+          <option value="wrong_bbox">wrong_bbox</option>
+          <option value="occlusion">occlusion</option>
+          <option value="uncertain">uncertain</option>
+          <option value="temporal_inconsistency">temporal_inconsistency</option>
+          <option value="review_required">review_required</option>
+          <option value="other">other</option>
+        </select>
+
+        <label>Severity</label>
+        <select id="severity">
+          <option value="info">info</option>
+          <option value="warning">warning</option>
+          <option value="hard">hard</option>
+        </select>
+
+        <textarea id="noteText" placeholder="Write validation note..."></textarea>
+        <button id="saveNote">Save note</button>
+        <div id="noteStatus"></div>
+      </section>
+    </aside>
+
+    <section class="viewer">
+      <div class="videoWrap">
+        <video id="video" controls muted></video>
+        <canvas id="overlay"></canvas>
+      </div>
+
+      <div class="infoGrid">
+        <div><strong>Scan frame:</strong> <span id="scanInfo">-</span></div>
+        <div><strong>Video ID:</strong> <span id="videoInfo">-</span></div>
+        <div><strong>Split:</strong> <span id="splitInfo">-</span></div>
+        <div><strong>Behaviour set:</strong> <span id="behaviourInfo">-</span></div>
+        <div><strong>Current time:</strong> <span id="timeInfo">-</span></div>
+        <div><strong>Estimated frame:</strong> <span id="frameInfo">-</span></div>
+        <div><strong>Objects:</strong> <span id="objectInfo">-</span></div>
+      </div>
+
+      <section class="panel">
+        <h3>Objects in current clip</h3>
+        <table id="objectTable">
+          <thead>
+            <tr>
+              <th>Box ID</th>
+              <th>Colour</th>
+              <th>Pig ID</th>
+              <th>Behaviour</th>
+              <th>Status</th>
+              <th>Flags</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

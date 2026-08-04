@@ -1,0 +1,7 @@
+# Week 8 v61 Annotation Source Inventory Report
+
+Decision: annotation_source_inventory_completed
+
+Inventory: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v61_annotation_source_inventory/week8_v61_annotation_source_inventory.csv`
+
+Top candidates: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v61_annotation_source_inventory/week8_v61_top_annotation_candidates.csv`

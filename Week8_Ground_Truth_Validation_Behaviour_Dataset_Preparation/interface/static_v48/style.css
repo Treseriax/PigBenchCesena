@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 22px;
+  background: #1f1f1f;
+  border-bottom: 1px solid #333;
+}
+
+header h1 {
+  margin: 0 0 4px 0;
+  font-size: 22px;
+}
+
+header p {
+  margin: 0;
+  color: #aaa;
+}
+
+#statusBadge {
+  background: #2c7;
+  color: #061;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-weight: bold;
+}
+
+.warningBox {
+  margin: 12px 16px 0 16px;
+  padding: 12px;
+  border-radius: 8px;
+  background: #3a2c00;
+  border: 1px solid #8a6d00;
+  color: #ffe9a6;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 370px 1fr;
+  gap: 16px;
+  padding: 16px;
+}
+
+aside {
+  background: #181818;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 14px;
+  height: calc(100vh - 150px);
+  overflow: auto;
+}
+
+.viewer {
+  min-width: 0;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  margin: 6px 0 12px 0;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #222;
+  color: #eee;
+}
+
+button {
+  cursor: pointer;
+  background: #2b6cff;
+  border-color: #2b6cff;
+  font-weight: bold;
+}
+
+.panel {
+  margin-top: 14px;
+  padding: 12px;
+  background: #202020;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+.panel h3 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  color: #ddd;
+}
+
+label input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+}
+
+.videoWrap {
+  position: relative;
+  background: black;
+  border: 1px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+video {
+  display: block;
+  width: 100%;
+  max-height: 70vh;
+  background: black;
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(180px, 1fr));
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.infoGrid div {
+  background: #1d1d1d;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+th, td {
+  padding: 6px;
+  border-bottom: 1px solid #333;
+  text-align: left;
+}
+
+th {
+  color: #ccc;
+}
+
+#noteStatus {
+  color: #7f7;
+  min-height: 18px;
+  overflow-wrap: anywhere;
+}
+
+.pathBox {
+  font-size: 12px;
+  color: #9fd;
+  overflow-wrap: anywhere;
+  background: #111;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #333;
+}
+
+.miniInfo {
+  font-size: 12px;
+  color: #bbb;
+}

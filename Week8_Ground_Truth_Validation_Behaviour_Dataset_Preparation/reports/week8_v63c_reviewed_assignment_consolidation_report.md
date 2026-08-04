@@ -1,0 +1,9 @@
+# Week 8 v63c Reviewed Assignment Consolidation Report
+
+Decision: reviewed_assignment_consolidation_completed
+
+Gold usable object GT: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v63c_reviewed_assignment_consolidation/week8_v63c_gold_usable_object_gt.csv`
+
+Pending/fix object GT: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v63c_reviewed_assignment_consolidation/week8_v63c_pending_or_fix_required_object_gt.csv`
+
+Scanframe summary: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v63c_reviewed_assignment_consolidation/week8_v63c_scanframe_assignment_summary.csv`

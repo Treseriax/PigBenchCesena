@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Week8 v72c Frozen Embedding Error Analysis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Week8 v72c Frozen Embedding Error Analysis</h1>
+    <p>Champion v72b frozen detector embedding predictions. GT is not modified here.</p>
+  </header>
+
+  <section id="summary"></section>
+
+  <section id="controls">
+    <label>Policy</label>
+    <select id="policyFilter"><option value="">All</option></select>
+
+    <label>Actual</label>
+    <select id="actualFilter"><option value="">All</option></select>
+
+    <label>Predicted</label>
+    <select id="predFilter"><option value="">All</option></select>
+
+    <label>Status</label>
+    <select id="statusFilter">
+      <option value="errors">Errors only</option>
+      <option value="all">All</option>
+      <option value="correct">Correct only</option>
+    </select>
+
+    <label>Search</label>
+    <input id="searchBox" placeholder="scanframe / object / video">
+  </section>
+
+  <main>
+    <aside>
+      <h2>Top Confusions</h2>
+      <div id="confusions"></div>
+
+      <h2>Weak Classes</h2>
+      <div id="classes"></div>
+    </aside>
+
+    <section id="grid"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

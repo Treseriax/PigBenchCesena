@@ -1,0 +1,9 @@
+# Week 8 v62a2 Canonical Video Time Sheet Lock Report
+
+Decision: canonical_video_time_sheet_lock_completed
+
+Video lock: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v62a2_canonical_video_time_sheet_lock/week8_v62a2_video_time_sheet_lock.csv`
+
+Excel time blocks: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v62a2_canonical_video_time_sheet_lock/week8_v62a2_excel_time_blocks_inventory.csv`
+
+Relevant blocks: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v62a2_canonical_video_time_sheet_lock/week8_v62a2_relevant_excel_blocks.csv`

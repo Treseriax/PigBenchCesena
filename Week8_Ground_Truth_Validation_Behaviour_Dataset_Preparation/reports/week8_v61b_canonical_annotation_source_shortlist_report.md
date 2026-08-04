@@ -1,0 +1,7 @@
+# Week 8 v61b Canonical Annotation Source Shortlist Report
+
+Decision: canonical_annotation_source_shortlist_completed
+
+Shortlist: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v61b_canonical_annotation_source_shortlist/week8_v61b_canonical_annotation_shortlist.csv`
+
+Previews: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v61b_canonical_annotation_source_shortlist/week8_v61b_candidate_previews.csv`

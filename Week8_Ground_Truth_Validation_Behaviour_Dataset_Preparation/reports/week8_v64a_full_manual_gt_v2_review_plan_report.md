@@ -1,0 +1,7 @@
+# Week 8 v64a Full Manual GT v2 Review Plan Report
+
+Decision: full_manual_gt_v2_review_plan_created
+
+Review plan: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v64a_full_manual_gt_v2_review_plan/week8_v64a_remaining_full_manual_gt_v2_review_plan.csv`
+
+Review batches: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v64a_full_manual_gt_v2_review_plan/week8_v64a_review_batches.csv`

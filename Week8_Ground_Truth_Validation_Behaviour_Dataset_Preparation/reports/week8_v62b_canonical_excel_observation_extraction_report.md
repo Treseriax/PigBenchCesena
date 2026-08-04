@@ -1,0 +1,11 @@
+# Week 8 v62b Canonical Excel Observation Extraction Report
+
+Decision: canonical_excel_observation_extraction_completed
+
+Canonical observations: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v62b_canonical_excel_observation_extraction/week8_v62b_canonical_colour_behaviour_observations.csv`
+
+Colour row inventory: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v62b_canonical_excel_observation_extraction/week8_v62b_canonical_colour_row_inventory.csv`
+
+Scanframe summary: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v62b_canonical_excel_observation_extraction/week8_v62b_scanframe_observation_summary.csv`
+
+Previous-vs-canonical colour summary: `/home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v62b_canonical_excel_observation_extraction/week8_v62b_previous_vs_canonical_colour_summary.csv`

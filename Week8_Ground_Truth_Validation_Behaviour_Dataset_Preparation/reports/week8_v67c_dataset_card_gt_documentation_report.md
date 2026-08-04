@@ -1,0 +1,9 @@
+# Week 8 v67c Dataset Card and GT Documentation Report
+
+Decision: dataset_card_gt_documentation_completed
+
+Documentation package: /home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v67c_dataset_card_gt_documentation/Week8_GT_v2_Dataset_Documentation
+
+ZIP: /home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v67c_dataset_card_gt_documentation/Week8_GT_v2_Dataset_Documentation.zip
+
+SHA256: f5bb7d99dc3d8d5d5dd52e13527947f6bff4868a888e078d744a2e4838a90bfe

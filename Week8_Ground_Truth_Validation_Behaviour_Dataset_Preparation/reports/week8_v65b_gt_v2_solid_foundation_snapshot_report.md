@@ -1,0 +1,11 @@
+# Week 8 v65b GT v2 Solid Foundation Snapshot Report
+
+Decision: gt_v2_solid_foundation_snapshot_completed
+
+Package directory: /home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v65b_gt_v2_solid_foundation_snapshot/Week8_GT_v2_Solid_Foundation
+
+Zip: /home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v65b_gt_v2_solid_foundation_snapshot/Week8_GT_v2_Solid_Foundation.zip
+
+SHA256: d9c21c5e8c2807e489295cc912198ae5c59def0297c655c3a156270368e6036f
+
+This package is the current GT foundation before repeating Week 8 downstream tasks.

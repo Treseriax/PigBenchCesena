@@ -1,0 +1,11 @@
+# Week 8 v72a Frozen Detector Embedding Extraction Report
+
+Decision: frozen_detector_embedding_extraction_completed
+
+Embedding rows: 744
+
+Embedding dimension: 899
+
+ZIP: /home/oyavuz/PigBench/Week8_Ground_Truth_Validation_Behaviour_Dataset_Preparation/outputs/v72a_frozen_detector_embedding_extraction/Week8_Frozen_Detector_Embeddings.zip
+
+SHA256: 43abf7a909593a835fc890f32fac2ec760d951eb4a5e60f6c8cffd40e3a43ed5

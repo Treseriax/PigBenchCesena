@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Week 8 v48 Behaviour Dataset Visualizer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Week 8 v48 Behaviour Dataset Visualizer</h1>
+      <p>Anchor-frame visual QA + propagated label inspection</p>
+    </div>
+    <div id="statusBadge">Loading...</div>
+  </header>
+
+  <div class="warningBox">
+    <strong>Important:</strong>
+    <span id="sourceWarning">Loading source information...</span>
+  </div>
+
+  <main>
+    <aside>
+      <h2>Clips</h2>
+      <input id="clipSearch" type="text" placeholder="Search scanframe / behaviour / split">
+      <select id="clipSelect" size="18"></select>
+
+      <section class="panel">
+        <h3>Review controls</h3>
+        <button id="jumpStart">Jump start</button>
+        <button id="jumpAnchor">Jump annotation anchor</button>
+        <button id="jumpEnd">Jump end</button>
+        <div class="miniInfo">Anchor time is estimated as the middle of the extracted 10-second clip.</div>
+      </section>
+
+      <section class="panel">
+        <h3>Overlay layers</h3>
+        <label><input type="checkbox" id="showBoxes" checked> Bounding boxes</label>
+        <label><input type="checkbox" id="showPigId" checked> Pig ID</label>
+        <label><input type="checkbox" id="showColour" checked> Colour identity</label>
+        <label><input type="checkbox" id="showBehaviour" checked> Behaviour label</label>
+        <label><input type="checkbox" id="showTimestamp" checked> Frame / timestamp</label>
+        <label><input type="checkbox" id="showFlags" checked> Validation flags</label>
+        <label><input type="checkbox" id="showSourceInfo" checked> Source info</label>
+      </section>
+
+      <section class="panel">
+        <h3>Validation note</h3>
+
+        <label>Issue type</label>
+        <select id="issueType">
+          <option value="bbox_misaligned_anchor_frame">bbox_misaligned_anchor_frame</option>
+          <option value="bbox_misaligned_during_motion">bbox_misaligned_during_motion</option>
+          <option value="colour_mismatch_possible">colour_mismatch_possible</option>
+          <option value="behaviour_mismatch_possible">behaviour_mismatch_possible</option>
+          <option value="identity_association_uncertain">identity_association_uncertain</option>
+          <option value="identity_switch_possible">identity_switch_possible</option>
+          <option value="missing_label">missing_label</option>
+          <option value="occlusion">occlusion</option>
+          <option value="tracking_needed">tracking_needed</option>
+          <option value="good_case">good_case</option>
+          <option value="other">other</option>
+        </select>
+
+        <label>Severity</label>
+        <select id="severity">
+          <option value="info">info</option>
+          <option value="warning">warning</option>
+          <option value="hard">hard</option>
+        </select>
+
+        <label>Review mode</label>
+        <select id="reviewMode">
+          <option value="anchor_frame_check">anchor_frame_check</option>
+          <option value="full_clip_motion_check">full_clip_motion_check</option>
+          <option value="label_association_check">label_association_check</option>
+          <option value="general_review">general_review</option>
+        </select>
+
+        <textarea id="noteText" placeholder="Write validation note..."></textarea>
+        <button id="saveNote">Save note</button>
+        <div id="noteStatus"></div>
+      </section>
+
+      <section class="panel">
+        <h3>Notes output</h3>
+        <div id="notesPath" class="pathBox">Loading...</div>
+      </section>
+    </aside>
+
+    <section class="viewer">
+      <div class="videoWrap">
+        <video id="video" controls muted></video>
+        <canvas id="overlay"></canvas>
+      </div>
+
+      <div class="infoGrid">
+        <div><strong>Scan frame:</strong> <span id="scanInfo">-</span></div>
+        <div><strong>Video ID:</strong> <span id="videoInfo">-</span></div>
+        <div><strong>Split:</strong> <span id="splitInfo">-</span></div>
+        <div><strong>Behaviour set:</strong> <span id="behaviourInfo">-</span></div>
+        <div><strong>Current time:</strong> <span id="timeInfo">-</span></div>
+        <div><strong>Estimated frame:</strong> <span id="frameInfo">-</span></div>
+        <div><strong>Objects:</strong> <span id="objectInfo">-</span></div>
+        <div><strong>BBox source:</strong> <span id="bboxSourceInfo">-</span></div>
+      </div>
+
+      <section class="panel">
+        <h3>Objects in current clip</h3>
+        <table id="objectTable">
+          <thead>
+            <tr>
+              <th>Box ID</th>
+              <th>Colour</th>
+              <th>Pig ID</th>
+              <th>Behaviour</th>
+              <th>Status</th>
+              <th>Training</th>
+              <th>Flags</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
